@@ -1,2 +1,2 @@
 #!/bin/bash
-[ "$(stat -c %a hello)" != "731" ] && chmod 731 hello
+chmod 731 ./hello
