@@ -8,7 +8,7 @@ do
   if [ $count -eq 8 ]
   then
     # Display "Best School" on one line and "Hi" on the next line for the 9th iteration
-    echo -n "Best School"
+    echo "Best School"
     echo " Hi"
   else
     # Display "Best School" for all other iterations
