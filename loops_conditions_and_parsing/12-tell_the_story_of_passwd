@@ -3,11 +3,11 @@
 file_path="/etc/passwd"
 
 # Use a while loop to read and process the file line by line
-while IFS=: read -r username password uid gid user_info home shell; do
+while IFS=: read -r username _ uid gid user_info home shell; do
   # Extract user information and format the output
-  echo "The user $username is part of the group $gid gang,"
+  echo "The user $username is part of the $gid gang,"
   echo "lives in $home and rides $shell."
-  echo "User ID's place is protected by the passcode $password,"
-  echo "more info about the user here: $uid $user_info"
+  echo "$uid's place is protected by the passcode x,"
+  echo "more info about the user here: $user_info"
   echo
-done < "$file_path"
+done <
