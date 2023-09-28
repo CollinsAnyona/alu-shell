@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
-#A while loop to iterate 10
-while((i=1; i<=10; 1++))
+#A launch a counter
+
+count=0
+
+#Create a while loop
+
+while[ $count -lt 10 ]
 do
 	echo "Best School"
+	((count++))
 done
