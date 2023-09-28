@@ -9,7 +9,7 @@ do
   then
     # Display "Best School" on one line and "Hi" on the next line for the 9th iteration
     echo "Best School"
-    echo " Hi"
+    echo "Hi"
   else
     # Display "Best School" for all other iterations
     echo "Best School"
